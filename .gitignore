@@ -1,0 +1,15 @@
+node_modules
+dist
+*.local
+.env
+.env.*
+!.env.example
+coverage
+playwright-report
+test-results
+*-debug.log
+.firebase
+functions/lib
+.DS_Store
+.claude
+*.log

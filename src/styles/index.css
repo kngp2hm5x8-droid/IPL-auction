@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Barlow Condensed", "Inter", ui-sans-serif, sans-serif;
+
+  --color-ink-950: #060a14;
+  --color-ink-900: #0a1020;
+  --color-ink-850: #0d1528;
+  --color-ink-800: #111a30;
+  --color-ink-750: #16213b;
+  --color-ink-700: #1d2946;
+  --color-ink-600: #2a3758;
+  --color-ink-500: #3b4a70;
+
+  --color-fg: #e9edf6;
+  --color-muted: #96a0b8;
+  --color-subtle: #67718c;
+
+  --color-gold-200: #ffe3a3;
+  --color-gold-300: #ffd27a;
+  --color-gold-400: #f5b841;
+  --color-gold-500: #e09f1f;
+  --color-gold-600: #b87d0c;
+
+  --color-success: #34d399;
+  --color-danger: #f87171;
+  --color-info: #60a5fa;
+  --color-warn: #fbbf24;
+
+  --color-tier-diamond: #b69cff;
+  --color-tier-platinum: #cfd8e6;
+  --color-tier-gold: #f5b841;
+  --color-tier-silver: #a3abb9;
+  --color-tier-bronze: #d58d55;
+
+  --radius-card: 1rem;
+  --shadow-card: 0 1px 0 0 rgb(255 255 255 / 0.04) inset, 0 10px 30px -12px rgb(0 0 0 / 0.6);
+  --shadow-glow: 0 0 0 1px rgb(245 184 65 / 0.35), 0 8px 30px -8px rgb(245 184 65 / 0.35);
+
+  --animate-pulse-ring: pulse-ring 1.2s ease-out infinite;
+  @keyframes pulse-ring {
+    0% { box-shadow: 0 0 0 0 rgb(245 184 65 / 0.45); }
+    100% { box-shadow: 0 0 0 14px rgb(245 184 65 / 0); }
+  }
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background: var(--color-ink-950);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  min-height: 100dvh;
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgb(37 66 140 / 0.28), transparent 60%),
+    radial-gradient(900px 500px at 110% 10%, rgb(245 184 65 / 0.08), transparent 60%),
+    var(--color-ink-950);
+  background-attachment: fixed;
+}
+
+@layer base {
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: 0.01em;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-gold-400);
+    outline-offset: 2px;
+  }
+  button { cursor: pointer; }
+  button:disabled { cursor: not-allowed; }
+}
+
+@layer utilities {
+  .tabular { font-variant-numeric: tabular-nums; }
+  .surface {
+    background: linear-gradient(180deg, rgb(255 255 255 / 0.035), rgb(255 255 255 / 0.015));
+    border: 1px solid rgb(255 255 255 / 0.07);
+    box-shadow: var(--shadow-card);
+  }
+  .surface-strong {
+    background: linear-gradient(180deg, var(--color-ink-750), var(--color-ink-800));
+    border: 1px solid rgb(255 255 255 / 0.08);
+    box-shadow: var(--shadow-card);
+  }
+  .text-gold-gradient {
+    background: linear-gradient(120deg, var(--color-gold-200), var(--color-gold-400) 45%, var(--color-gold-500));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .scrollbar-thin { scrollbar-width: thin; scrollbar-color: var(--color-ink-600) transparent; }
+  .safe-bottom { padding-bottom: max(0.75rem, env(safe-area-inset-bottom)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

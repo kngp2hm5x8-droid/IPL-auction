@@ -1,0 +1,3069 @@
+{
+ "source": "Migrated from IPL Auction Simulator v2 PLAYERS_DB",
+ "note": "rating, battingSlot and bowlingType are FICTIONAL gameplay parameters, not official statistics.",
+ "players": [
+  {
+   "id": "P001",
+   "name": "Virat Kohli",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 95,
+   "basePrice": 200,
+   "previousTeams": [
+    "RCB"
+   ],
+   "lastTeam": "RCB",
+   "overseas": false
+  },
+  {
+   "id": "P002",
+   "name": "Rohit Sharma",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 93,
+   "basePrice": 200,
+   "previousTeams": [
+    "MI"
+   ],
+   "lastTeam": "MI",
+   "overseas": false
+  },
+  {
+   "id": "P003",
+   "name": "Suryakumar Yadav",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "top",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 96,
+   "basePrice": 200,
+   "previousTeams": [
+    "KKR",
+    "MI"
+   ],
+   "lastTeam": "MI",
+   "overseas": false
+  },
+  {
+   "id": "P004",
+   "name": "Rishabh Pant",
+   "country": "IND",
+   "role": "WK",
+   "battingSlot": "top",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 92,
+   "basePrice": 200,
+   "previousTeams": [
+    "DC",
+    "LSG"
+   ],
+   "lastTeam": "LSG",
+   "overseas": false
+  },
+  {
+   "id": "P005",
+   "name": "KL Rahul",
+   "country": "IND",
+   "role": "WK",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 89,
+   "basePrice": 200,
+   "previousTeams": [
+    "RCB",
+    "SRH",
+    "PBKS",
+    "LSG",
+    "DC"
+   ],
+   "lastTeam": "DC",
+   "overseas": false
+  },
+  {
+   "id": "P006",
+   "name": "Shreyas Iyer",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "top",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 88,
+   "basePrice": 200,
+   "previousTeams": [
+    "DC",
+    "KKR",
+    "PBKS"
+   ],
+   "lastTeam": "PBKS",
+   "overseas": false
+  },
+  {
+   "id": "P007",
+   "name": "Shubman Gill",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 92,
+   "basePrice": 200,
+   "previousTeams": [
+    "KKR",
+    "GT"
+   ],
+   "lastTeam": "GT",
+   "overseas": false
+  },
+  {
+   "id": "P008",
+   "name": "Yashasvi Jaiswal",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "platinum",
+   "rating": 90,
+   "basePrice": 150,
+   "previousTeams": [
+    "RR"
+   ],
+   "lastTeam": "RR",
+   "overseas": false
+  },
+  {
+   "id": "P009",
+   "name": "Ruturaj Gaikwad",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "platinum",
+   "rating": 89,
+   "basePrice": 150,
+   "previousTeams": [
+    "CSK"
+   ],
+   "lastTeam": "CSK",
+   "overseas": false
+  },
+  {
+   "id": "P010",
+   "name": "Sanju Samson",
+   "country": "IND",
+   "role": "WK",
+   "battingSlot": "top",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 89,
+   "basePrice": 200,
+   "previousTeams": [
+    "RR",
+    "DC",
+    "CSK"
+   ],
+   "lastTeam": "CSK",
+   "overseas": false
+  },
+  {
+   "id": "P011",
+   "name": "Rinku Singh",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "finisher",
+   "bowlingType": null,
+   "tier": "gold",
+   "rating": 88,
+   "basePrice": 100,
+   "previousTeams": [
+    "PBKS",
+    "KKR"
+   ],
+   "lastTeam": "KKR",
+   "overseas": false
+  },
+  {
+   "id": "P012",
+   "name": "Ishan Kishan",
+   "country": "IND",
+   "role": "WK",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 87,
+   "basePrice": 200,
+   "previousTeams": [
+    "GT",
+    "MI",
+    "SRH"
+   ],
+   "lastTeam": "SRH",
+   "overseas": false
+  },
+  {
+   "id": "P013",
+   "name": "Tilak Varma",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "top",
+   "bowlingType": null,
+   "tier": "gold",
+   "rating": 86,
+   "basePrice": 100,
+   "previousTeams": [
+    "MI"
+   ],
+   "lastTeam": "MI",
+   "overseas": false
+  },
+  {
+   "id": "P014",
+   "name": "Abhishek Sharma",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "gold",
+   "rating": 87,
+   "basePrice": 100,
+   "previousTeams": [
+    "DC",
+    "SRH"
+   ],
+   "lastTeam": "SRH",
+   "overseas": false
+  },
+  {
+   "id": "P015",
+   "name": "Riyan Parag",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "top",
+   "bowlingType": null,
+   "tier": "gold",
+   "rating": 85,
+   "basePrice": 100,
+   "previousTeams": [
+    "RR"
+   ],
+   "lastTeam": "RR",
+   "overseas": false
+  },
+  {
+   "id": "P016",
+   "name": "Dhruv Jurel",
+   "country": "IND",
+   "role": "WK",
+   "battingSlot": "finisher",
+   "bowlingType": null,
+   "tier": "silver",
+   "rating": 84,
+   "basePrice": 50,
+   "previousTeams": [
+    "RR"
+   ],
+   "lastTeam": "RR",
+   "overseas": false
+  },
+  {
+   "id": "P017",
+   "name": "Sai Sudharsan",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "silver",
+   "rating": 85,
+   "basePrice": 50,
+   "previousTeams": [
+    "GT"
+   ],
+   "lastTeam": "GT",
+   "overseas": false
+  },
+  {
+   "id": "P018",
+   "name": "Prabhsimran Singh",
+   "country": "IND",
+   "role": "WK",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "silver",
+   "rating": 82,
+   "basePrice": 50,
+   "previousTeams": [
+    "PBKS"
+   ],
+   "lastTeam": "PBKS",
+   "overseas": false
+  },
+  {
+   "id": "P019",
+   "name": "Jitesh Sharma",
+   "country": "IND",
+   "role": "WK",
+   "battingSlot": "finisher",
+   "bowlingType": null,
+   "tier": "gold",
+   "rating": 83,
+   "basePrice": 100,
+   "previousTeams": [
+    "MI",
+    "PBKS",
+    "RCB"
+   ],
+   "lastTeam": "RCB",
+   "overseas": false
+  },
+  {
+   "id": "P020",
+   "name": "Rajat Patidar",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "top",
+   "bowlingType": null,
+   "tier": "silver",
+   "rating": 84,
+   "basePrice": 50,
+   "previousTeams": [
+    "RCB"
+   ],
+   "lastTeam": "RCB",
+   "overseas": false
+  },
+  {
+   "id": "P021",
+   "name": "Hardik Pandya",
+   "country": "IND",
+   "role": "AR",
+   "battingSlot": "finisher",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 94,
+   "basePrice": 200,
+   "previousTeams": [
+    "GT",
+    "MI"
+   ],
+   "lastTeam": "MI",
+   "overseas": false
+  },
+  {
+   "id": "P022",
+   "name": "Ravindra Jadeja",
+   "country": "IND",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "spin",
+   "tier": "diamond",
+   "rating": 93,
+   "basePrice": 200,
+   "previousTeams": [
+    "GL",
+    "CSK",
+    "RR"
+   ],
+   "lastTeam": "RR",
+   "overseas": false
+  },
+  {
+   "id": "P023",
+   "name": "Axar Patel",
+   "country": "IND",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "spin",
+   "tier": "diamond",
+   "rating": 90,
+   "basePrice": 200,
+   "previousTeams": [
+    "MI",
+    "PBKS",
+    "DC"
+   ],
+   "lastTeam": "DC",
+   "overseas": false
+  },
+  {
+   "id": "P024",
+   "name": "Shivam Dube",
+   "country": "IND",
+   "role": "AR",
+   "battingSlot": "finisher",
+   "bowlingType": "pace",
+   "tier": "platinum",
+   "rating": 87,
+   "basePrice": 150,
+   "previousTeams": [
+    "RCB",
+    "RR",
+    "CSK"
+   ],
+   "lastTeam": "CSK",
+   "overseas": false
+  },
+  {
+   "id": "P025",
+   "name": "Washington Sundar",
+   "country": "IND",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "spin",
+   "tier": "platinum",
+   "rating": 84,
+   "basePrice": 150,
+   "previousTeams": [
+    "RPS",
+    "RCB",
+    "SRH",
+    "GT"
+   ],
+   "lastTeam": "GT",
+   "overseas": false
+  },
+  {
+   "id": "P026",
+   "name": "Krunal Pandya",
+   "country": "IND",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "spin",
+   "tier": "gold",
+   "rating": 83,
+   "basePrice": 100,
+   "previousTeams": [
+    "MI",
+    "LSG",
+    "RCB"
+   ],
+   "lastTeam": "RCB",
+   "overseas": false
+  },
+  {
+   "id": "P027",
+   "name": "Nitish Kumar Reddy",
+   "country": "IND",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "pace",
+   "tier": "silver",
+   "rating": 82,
+   "basePrice": 50,
+   "previousTeams": [
+    "SRH"
+   ],
+   "lastTeam": "SRH",
+   "overseas": false
+  },
+  {
+   "id": "P028",
+   "name": "Rahul Tewatia",
+   "country": "IND",
+   "role": "AR",
+   "battingSlot": "finisher",
+   "bowlingType": "spin",
+   "tier": "gold",
+   "rating": 84,
+   "basePrice": 100,
+   "previousTeams": [
+    "RR",
+    "PBKS",
+    "DC",
+    "GT"
+   ],
+   "lastTeam": "GT",
+   "overseas": false
+  },
+  {
+   "id": "P029",
+   "name": "Venkatesh Iyer",
+   "country": "IND",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 84,
+   "basePrice": 100,
+   "previousTeams": [
+    "KKR",
+    "RCB"
+   ],
+   "lastTeam": "RCB",
+   "overseas": false
+  },
+  {
+   "id": "P030",
+   "name": "Deepak Hooda",
+   "country": "IND",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "spin",
+   "tier": "gold",
+   "rating": 81,
+   "basePrice": 100,
+   "previousTeams": [
+    "RR",
+    "SRH",
+    "PBKS",
+    "LSG",
+    "CSK"
+   ],
+   "lastTeam": "CSK",
+   "overseas": false
+  },
+  {
+   "id": "P031",
+   "name": "Jasprit Bumrah",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 97,
+   "basePrice": 200,
+   "previousTeams": [
+    "MI"
+   ],
+   "lastTeam": "MI",
+   "overseas": false
+  },
+  {
+   "id": "P032",
+   "name": "Mohammed Siraj",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 89,
+   "basePrice": 200,
+   "previousTeams": [
+    "SRH",
+    "RCB",
+    "GT"
+   ],
+   "lastTeam": "GT",
+   "overseas": false
+  },
+  {
+   "id": "P033",
+   "name": "Mohammed Shami",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 91,
+   "basePrice": 200,
+   "previousTeams": [
+    "KKR",
+    "DC",
+    "PBKS",
+    "GT",
+    "SRH"
+   ],
+   "lastTeam": "SRH",
+   "overseas": false
+  },
+  {
+   "id": "P034",
+   "name": "Kuldeep Yadav",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "spin",
+   "tier": "diamond",
+   "rating": 91,
+   "basePrice": 200,
+   "previousTeams": [
+    "MI",
+    "KKR",
+    "DC"
+   ],
+   "lastTeam": "DC",
+   "overseas": false
+  },
+  {
+   "id": "P035",
+   "name": "Arshdeep Singh",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 88,
+   "basePrice": 200,
+   "previousTeams": [
+    "PBKS"
+   ],
+   "lastTeam": "PBKS",
+   "overseas": false
+  },
+  {
+   "id": "P036",
+   "name": "Ravi Bishnoi",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "spin",
+   "tier": "platinum",
+   "rating": 86,
+   "basePrice": 150,
+   "previousTeams": [
+    "PBKS",
+    "LSG",
+    "RR"
+   ],
+   "lastTeam": "RR",
+   "overseas": false
+  },
+  {
+   "id": "P037",
+   "name": "Yuzvendra Chahal",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "spin",
+   "tier": "diamond",
+   "rating": 88,
+   "basePrice": 200,
+   "previousTeams": [
+    "MI",
+    "RCB",
+    "RR",
+    "PBKS"
+   ],
+   "lastTeam": "PBKS",
+   "overseas": false
+  },
+  {
+   "id": "P038",
+   "name": "Ravichandran Ashwin",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "spin",
+   "tier": "diamond",
+   "rating": 87,
+   "basePrice": 200,
+   "previousTeams": [
+    "CSK",
+    "RPS",
+    "PBKS",
+    "DC",
+    "RR"
+   ],
+   "lastTeam": "RR",
+   "overseas": false
+  },
+  {
+   "id": "P039",
+   "name": "Khaleel Ahmed",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 84,
+   "basePrice": 100,
+   "previousTeams": [
+    "DC",
+    "SRH",
+    "CSK"
+   ],
+   "lastTeam": "CSK",
+   "overseas": false
+  },
+  {
+   "id": "P040",
+   "name": "Mukesh Kumar",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 83,
+   "basePrice": 100,
+   "previousTeams": [
+    "DC"
+   ],
+   "lastTeam": "DC",
+   "overseas": false
+  },
+  {
+   "id": "P041",
+   "name": "Avesh Khan",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "platinum",
+   "rating": 84,
+   "basePrice": 150,
+   "previousTeams": [
+    "RCB",
+    "DC",
+    "LSG",
+    "RR"
+   ],
+   "lastTeam": "RR",
+   "overseas": false
+  },
+  {
+   "id": "P042",
+   "name": "Deepak Chahar",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "platinum",
+   "rating": 85,
+   "basePrice": 150,
+   "previousTeams": [
+    "RPS",
+    "CSK",
+    "MI"
+   ],
+   "lastTeam": "MI",
+   "overseas": false
+  },
+  {
+   "id": "P043",
+   "name": "T Natarajan",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 86,
+   "basePrice": 100,
+   "previousTeams": [
+    "PBKS",
+    "SRH",
+    "DC"
+   ],
+   "lastTeam": "DC",
+   "overseas": false
+  },
+  {
+   "id": "P044",
+   "name": "Harshal Patel",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 85,
+   "basePrice": 200,
+   "previousTeams": [
+    "RCB",
+    "DC",
+    "PBKS"
+   ],
+   "lastTeam": "PBKS",
+   "overseas": false
+  },
+  {
+   "id": "P045",
+   "name": "Sandeep Sharma",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "silver",
+   "rating": 85,
+   "basePrice": 50,
+   "previousTeams": [
+    "PBKS",
+    "SRH",
+    "RR"
+   ],
+   "lastTeam": "RR",
+   "overseas": false
+  },
+  {
+   "id": "P046",
+   "name": "Mohit Sharma",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "silver",
+   "rating": 84,
+   "basePrice": 50,
+   "previousTeams": [
+    "CSK",
+    "PBKS",
+    "DC",
+    "GT"
+   ],
+   "lastTeam": "GT",
+   "overseas": false
+  },
+  {
+   "id": "P047",
+   "name": "Mayank Yadav",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "silver",
+   "rating": 83,
+   "basePrice": 50,
+   "previousTeams": [
+    "LSG"
+   ],
+   "lastTeam": "LSG",
+   "overseas": false
+  },
+  {
+   "id": "P048",
+   "name": "Harshit Rana",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "silver",
+   "rating": 82,
+   "basePrice": 50,
+   "previousTeams": [
+    "KKR"
+   ],
+   "lastTeam": "KKR",
+   "overseas": false
+  },
+  {
+   "id": "P049",
+   "name": "Akash Deep",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "silver",
+   "rating": 81,
+   "basePrice": 50,
+   "previousTeams": [
+    "RCB"
+   ],
+   "lastTeam": "RCB",
+   "overseas": false
+  },
+  {
+   "id": "P050",
+   "name": "Yash Dayal",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "silver",
+   "rating": 80,
+   "basePrice": 50,
+   "previousTeams": [
+    "GT",
+    "RCB"
+   ],
+   "lastTeam": "RCB",
+   "overseas": false
+  },
+  {
+   "id": "P051",
+   "name": "Rahul Tripathi",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "top",
+   "bowlingType": null,
+   "tier": "gold",
+   "rating": 82,
+   "basePrice": 100,
+   "previousTeams": [
+    "RPS",
+    "RR",
+    "SRH",
+    "KKR"
+   ],
+   "lastTeam": "KKR",
+   "overseas": false
+  },
+  {
+   "id": "P052",
+   "name": "Devdutt Padikkal",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "gold",
+   "rating": 80,
+   "basePrice": 100,
+   "previousTeams": [
+    "RR",
+    "LSG",
+    "RCB"
+   ],
+   "lastTeam": "RCB",
+   "overseas": false
+  },
+  {
+   "id": "P053",
+   "name": "Ayush Badoni",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "top",
+   "bowlingType": null,
+   "tier": "silver",
+   "rating": 81,
+   "basePrice": 50,
+   "previousTeams": [
+    "LSG"
+   ],
+   "lastTeam": "LSG",
+   "overseas": false
+  },
+  {
+   "id": "P054",
+   "name": "Nehal Wadhera",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "top",
+   "bowlingType": null,
+   "tier": "bronze",
+   "rating": 80,
+   "basePrice": 20,
+   "previousTeams": [
+    "MI",
+    "PBKS"
+   ],
+   "lastTeam": "PBKS",
+   "overseas": false
+  },
+  {
+   "id": "P055",
+   "name": "Abdul Samad",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "finisher",
+   "bowlingType": null,
+   "tier": "silver",
+   "rating": 78,
+   "basePrice": 50,
+   "previousTeams": [
+    "SRH"
+   ],
+   "lastTeam": "SRH",
+   "overseas": false
+  },
+  {
+   "id": "P056",
+   "name": "Shahrukh Khan",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "finisher",
+   "bowlingType": null,
+   "tier": "silver",
+   "rating": 81,
+   "basePrice": 50,
+   "previousTeams": [
+    "PBKS",
+    "GT"
+   ],
+   "lastTeam": "GT",
+   "overseas": false
+  },
+  {
+   "id": "P057",
+   "name": "Vijay Shankar",
+   "country": "IND",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 79,
+   "basePrice": 100,
+   "previousTeams": [
+    "SRH",
+    "DC",
+    "GT",
+    "CSK"
+   ],
+   "lastTeam": "CSK",
+   "overseas": false
+  },
+  {
+   "id": "P058",
+   "name": "Naman Dhir",
+   "country": "IND",
+   "role": "AR",
+   "battingSlot": "finisher",
+   "bowlingType": "spin",
+   "tier": "bronze",
+   "rating": 77,
+   "basePrice": 20,
+   "previousTeams": [
+    "MI"
+   ],
+   "lastTeam": "MI",
+   "overseas": false
+  },
+  {
+   "id": "P059",
+   "name": "Ramandeep Singh",
+   "country": "IND",
+   "role": "AR",
+   "battingSlot": "finisher",
+   "bowlingType": "pace",
+   "tier": "bronze",
+   "rating": 78,
+   "basePrice": 20,
+   "previousTeams": [
+    "MI",
+    "KKR"
+   ],
+   "lastTeam": "KKR",
+   "overseas": false
+  },
+  {
+   "id": "P060",
+   "name": "Harpreet Brar",
+   "country": "IND",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "spin",
+   "tier": "silver",
+   "rating": 80,
+   "basePrice": 50,
+   "previousTeams": [
+    "PBKS"
+   ],
+   "lastTeam": "PBKS",
+   "overseas": false
+  },
+  {
+   "id": "P061",
+   "name": "Suyash Sharma",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "spin",
+   "tier": "bronze",
+   "rating": 78,
+   "basePrice": 20,
+   "previousTeams": [
+    "KKR",
+    "RCB"
+   ],
+   "lastTeam": "RCB",
+   "overseas": false
+  },
+  {
+   "id": "P062",
+   "name": "Umran Malik",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 80,
+   "basePrice": 100,
+   "previousTeams": [
+    "SRH",
+    "KKR"
+   ],
+   "lastTeam": "KKR",
+   "overseas": false
+  },
+  {
+   "id": "P063",
+   "name": "Navdeep Saini",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "silver",
+   "rating": 77,
+   "basePrice": 50,
+   "previousTeams": [
+    "RCB",
+    "RR"
+   ],
+   "lastTeam": "RR",
+   "overseas": false
+  },
+  {
+   "id": "P064",
+   "name": "Chetan Sakariya",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "silver",
+   "rating": 78,
+   "basePrice": 50,
+   "previousTeams": [
+    "RR",
+    "DC",
+    "KKR"
+   ],
+   "lastTeam": "KKR",
+   "overseas": false
+  },
+  {
+   "id": "P065",
+   "name": "Kartik Tyagi",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "silver",
+   "rating": 77,
+   "basePrice": 50,
+   "previousTeams": [
+    "RR",
+    "SRH",
+    "GT"
+   ],
+   "lastTeam": "GT",
+   "overseas": false
+  },
+  {
+   "id": "P066",
+   "name": "Tushar Deshpande",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "silver",
+   "rating": 82,
+   "basePrice": 50,
+   "previousTeams": [
+    "DC",
+    "CSK",
+    "RR"
+   ],
+   "lastTeam": "RR",
+   "overseas": false
+  },
+  {
+   "id": "P067",
+   "name": "Simarjeet Singh",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "bronze",
+   "rating": 78,
+   "basePrice": 20,
+   "previousTeams": [
+    "CSK",
+    "SRH"
+   ],
+   "lastTeam": "SRH",
+   "overseas": false
+  },
+  {
+   "id": "P068",
+   "name": "Vaibhav Arora",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "bronze",
+   "rating": 79,
+   "basePrice": 20,
+   "previousTeams": [
+    "PBKS",
+    "KKR"
+   ],
+   "lastTeam": "KKR",
+   "overseas": false
+  },
+  {
+   "id": "P069",
+   "name": "Mohsin Khan",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "silver",
+   "rating": 82,
+   "basePrice": 50,
+   "previousTeams": [
+    "MI",
+    "LSG"
+   ],
+   "lastTeam": "LSG",
+   "overseas": false
+  },
+  {
+   "id": "P070",
+   "name": "Shivam Mavi",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 78,
+   "basePrice": 100,
+   "previousTeams": [
+    "KKR",
+    "GT",
+    "LSG"
+   ],
+   "lastTeam": "LSG",
+   "overseas": false
+  },
+  {
+   "id": "P071",
+   "name": "Pat Cummins",
+   "country": "AUS",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 92,
+   "basePrice": 200,
+   "previousTeams": [
+    "KKR",
+    "DC",
+    "SRH"
+   ],
+   "lastTeam": "SRH",
+   "overseas": true
+  },
+  {
+   "id": "P072",
+   "name": "Mitchell Starc",
+   "country": "AUS",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 91,
+   "basePrice": 200,
+   "previousTeams": [
+    "RCB",
+    "KKR",
+    "DC"
+   ],
+   "lastTeam": "DC",
+   "overseas": true
+  },
+  {
+   "id": "P073",
+   "name": "Travis Head",
+   "country": "AUS",
+   "role": "BAT",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 93,
+   "basePrice": 200,
+   "previousTeams": [
+    "RCB",
+    "SRH"
+   ],
+   "lastTeam": "SRH",
+   "overseas": true
+  },
+  {
+   "id": "P074",
+   "name": "Glenn Maxwell",
+   "country": "AUS",
+   "role": "AR",
+   "battingSlot": "finisher",
+   "bowlingType": "spin",
+   "tier": "diamond",
+   "rating": 90,
+   "basePrice": 200,
+   "previousTeams": [
+    "DC",
+    "MI",
+    "RCB",
+    "PBKS"
+   ],
+   "lastTeam": "PBKS",
+   "overseas": true
+  },
+  {
+   "id": "P075",
+   "name": "Cameron Green",
+   "country": "AUS",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 88,
+   "basePrice": 200,
+   "previousTeams": [
+    "MI",
+    "RCB",
+    "KKR"
+   ],
+   "lastTeam": "KKR",
+   "overseas": true
+  },
+  {
+   "id": "P076",
+   "name": "Marcus Stoinis",
+   "country": "AUS",
+   "role": "AR",
+   "battingSlot": "finisher",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 86,
+   "basePrice": 200,
+   "previousTeams": [
+    "RCB",
+    "DC",
+    "LSG",
+    "PBKS"
+   ],
+   "lastTeam": "PBKS",
+   "overseas": true
+  },
+  {
+   "id": "P077",
+   "name": "Tim David",
+   "country": "AUS",
+   "role": "BAT",
+   "battingSlot": "finisher",
+   "bowlingType": null,
+   "tier": "platinum",
+   "rating": 87,
+   "basePrice": 150,
+   "previousTeams": [
+    "MI",
+    "RCB"
+   ],
+   "lastTeam": "RCB",
+   "overseas": true
+  },
+  {
+   "id": "P078",
+   "name": "Josh Hazlewood",
+   "country": "AUS",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 89,
+   "basePrice": 200,
+   "previousTeams": [
+    "CSK",
+    "RCB"
+   ],
+   "lastTeam": "RCB",
+   "overseas": true
+  },
+  {
+   "id": "P079",
+   "name": "Adam Zampa",
+   "country": "AUS",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "spin",
+   "tier": "platinum",
+   "rating": 88,
+   "basePrice": 150,
+   "previousTeams": [
+    "RPS",
+    "RCB",
+    "RR"
+   ],
+   "lastTeam": "RR",
+   "overseas": true
+  },
+  {
+   "id": "P080",
+   "name": "Nathan Ellis",
+   "country": "AUS",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 84,
+   "basePrice": 100,
+   "previousTeams": [
+    "PBKS",
+    "CSK"
+   ],
+   "lastTeam": "CSK",
+   "overseas": true
+  },
+  {
+   "id": "P081",
+   "name": "Jake Fraser-McGurk",
+   "country": "AUS",
+   "role": "BAT",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "silver",
+   "rating": 85,
+   "basePrice": 50,
+   "previousTeams": [
+    "DC"
+   ],
+   "lastTeam": "DC",
+   "overseas": true
+  },
+  {
+   "id": "P082",
+   "name": "Spencer Johnson",
+   "country": "AUS",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 82,
+   "basePrice": 100,
+   "previousTeams": [
+    "GT",
+    "CSK"
+   ],
+   "lastTeam": "CSK",
+   "overseas": true
+  },
+  {
+   "id": "P083",
+   "name": "Matthew Short",
+   "country": "AUS",
+   "role": "AR",
+   "battingSlot": "opener",
+   "bowlingType": "spin",
+   "tier": "gold",
+   "rating": 81,
+   "basePrice": 100,
+   "previousTeams": [
+    "PBKS",
+    "CSK"
+   ],
+   "lastTeam": "CSK",
+   "overseas": true
+  },
+  {
+   "id": "P084",
+   "name": "Josh Inglis",
+   "country": "AUS",
+   "role": "WK",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "platinum",
+   "rating": 85,
+   "basePrice": 150,
+   "previousTeams": [
+    "PBKS",
+    "LSG"
+   ],
+   "lastTeam": "LSG",
+   "overseas": true
+  },
+  {
+   "id": "P085",
+   "name": "Jason Behrendorff",
+   "country": "AUS",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "platinum",
+   "rating": 84,
+   "basePrice": 150,
+   "previousTeams": [
+    "MI",
+    "RCB"
+   ],
+   "lastTeam": "RCB",
+   "overseas": true
+  },
+  {
+   "id": "P086",
+   "name": "Jos Buttler",
+   "country": "ENG",
+   "role": "WK",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 94,
+   "basePrice": 200,
+   "previousTeams": [
+    "MI",
+    "RR",
+    "GT"
+   ],
+   "lastTeam": "GT",
+   "overseas": true
+  },
+  {
+   "id": "P087",
+   "name": "Phil Salt",
+   "country": "ENG",
+   "role": "WK",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 91,
+   "basePrice": 200,
+   "previousTeams": [
+    "DC",
+    "KKR",
+    "RCB"
+   ],
+   "lastTeam": "RCB",
+   "overseas": true
+  },
+  {
+   "id": "P088",
+   "name": "Will Jacks",
+   "country": "ENG",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "spin",
+   "tier": "platinum",
+   "rating": 87,
+   "basePrice": 150,
+   "previousTeams": [
+    "RCB",
+    "MI"
+   ],
+   "lastTeam": "MI",
+   "overseas": true
+  },
+  {
+   "id": "P089",
+   "name": "Sam Curran",
+   "country": "ENG",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 86,
+   "basePrice": 200,
+   "previousTeams": [
+    "PBKS",
+    "CSK",
+    "RR"
+   ],
+   "lastTeam": "RR",
+   "overseas": true
+  },
+  {
+   "id": "P090",
+   "name": "Jofra Archer",
+   "country": "ENG",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 89,
+   "basePrice": 200,
+   "previousTeams": [
+    "MI",
+    "RR"
+   ],
+   "lastTeam": "RR",
+   "overseas": true
+  },
+  {
+   "id": "P091",
+   "name": "Mark Wood",
+   "country": "ENG",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 87,
+   "basePrice": 200,
+   "previousTeams": [
+    "CSK",
+    "LSG"
+   ],
+   "lastTeam": "LSG",
+   "overseas": true
+  },
+  {
+   "id": "P092",
+   "name": "Adil Rashid",
+   "country": "ENG",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "spin",
+   "tier": "diamond",
+   "rating": 88,
+   "basePrice": 200,
+   "previousTeams": [
+    "PBKS",
+    "SRH"
+   ],
+   "lastTeam": "SRH",
+   "overseas": true
+  },
+  {
+   "id": "P093",
+   "name": "Jonny Bairstow",
+   "country": "ENG",
+   "role": "WK",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 86,
+   "basePrice": 200,
+   "previousTeams": [
+    "SRH",
+    "PBKS",
+    "MI"
+   ],
+   "lastTeam": "MI",
+   "overseas": true
+  },
+  {
+   "id": "P094",
+   "name": "Liam Livingstone",
+   "country": "ENG",
+   "role": "AR",
+   "battingSlot": "finisher",
+   "bowlingType": "spin",
+   "tier": "diamond",
+   "rating": 85,
+   "basePrice": 200,
+   "previousTeams": [
+    "RR",
+    "PBKS",
+    "RCB",
+    "SRH"
+   ],
+   "lastTeam": "SRH",
+   "overseas": true
+  },
+  {
+   "id": "P095",
+   "name": "Harry Brook",
+   "country": "ENG",
+   "role": "BAT",
+   "battingSlot": "top",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 86,
+   "basePrice": 200,
+   "previousTeams": [],
+   "lastTeam": null,
+   "overseas": true
+  },
+  {
+   "id": "P096",
+   "name": "Reece Topley",
+   "country": "ENG",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "platinum",
+   "rating": 84,
+   "basePrice": 150,
+   "previousTeams": [
+    "RCB"
+   ],
+   "lastTeam": "RCB",
+   "overseas": true
+  },
+  {
+   "id": "P097",
+   "name": "Tymal Mills",
+   "country": "ENG",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 81,
+   "basePrice": 100,
+   "previousTeams": [
+    "RCB",
+    "MI"
+   ],
+   "lastTeam": "MI",
+   "overseas": true
+  },
+  {
+   "id": "P098",
+   "name": "Moeen Ali",
+   "country": "ENG",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "spin",
+   "tier": "diamond",
+   "rating": 83,
+   "basePrice": 200,
+   "previousTeams": [
+    "RCB",
+    "CSK"
+   ],
+   "lastTeam": "CSK",
+   "overseas": true
+  },
+  {
+   "id": "P099",
+   "name": "Chris Jordan",
+   "country": "ENG",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "platinum",
+   "rating": 82,
+   "basePrice": 150,
+   "previousTeams": [
+    "RCB",
+    "SRH",
+    "PBKS",
+    "CSK",
+    "MI"
+   ],
+   "lastTeam": "MI",
+   "overseas": true
+  },
+  {
+   "id": "P100",
+   "name": "Ben Duckett",
+   "country": "ENG",
+   "role": "BAT",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "gold",
+   "rating": 83,
+   "basePrice": 100,
+   "previousTeams": [],
+   "lastTeam": null,
+   "overseas": true
+  },
+  {
+   "id": "P101",
+   "name": "Heinrich Klaasen",
+   "country": "RSA",
+   "role": "WK",
+   "battingSlot": "finisher",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 95,
+   "basePrice": 200,
+   "previousTeams": [
+    "RR",
+    "RCB",
+    "SRH"
+   ],
+   "lastTeam": "SRH",
+   "overseas": true
+  },
+  {
+   "id": "P102",
+   "name": "David Miller",
+   "country": "RSA",
+   "role": "BAT",
+   "battingSlot": "finisher",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 88,
+   "basePrice": 200,
+   "previousTeams": [
+    "PBKS",
+    "RR",
+    "GT",
+    "DC"
+   ],
+   "lastTeam": "DC",
+   "overseas": true
+  },
+  {
+   "id": "P103",
+   "name": "Kagiso Rabada",
+   "country": "RSA",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 90,
+   "basePrice": 200,
+   "previousTeams": [
+    "DC",
+    "PBKS",
+    "GT"
+   ],
+   "lastTeam": "GT",
+   "overseas": true
+  },
+  {
+   "id": "P104",
+   "name": "Anrich Nortje",
+   "country": "RSA",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 88,
+   "basePrice": 200,
+   "previousTeams": [
+    "DC"
+   ],
+   "lastTeam": "DC",
+   "overseas": true
+  },
+  {
+   "id": "P105",
+   "name": "Marco Jansen",
+   "country": "RSA",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "pace",
+   "tier": "platinum",
+   "rating": 86,
+   "basePrice": 150,
+   "previousTeams": [
+    "MI",
+    "SRH",
+    "PBKS"
+   ],
+   "lastTeam": "PBKS",
+   "overseas": true
+  },
+  {
+   "id": "P106",
+   "name": "Aiden Markram",
+   "country": "RSA",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "spin",
+   "tier": "diamond",
+   "rating": 85,
+   "basePrice": 200,
+   "previousTeams": [
+    "PBKS",
+    "SRH",
+    "LSG"
+   ],
+   "lastTeam": "LSG",
+   "overseas": true
+  },
+  {
+   "id": "P107",
+   "name": "Gerald Coetzee",
+   "country": "RSA",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "platinum",
+   "rating": 84,
+   "basePrice": 150,
+   "previousTeams": [
+    "MI"
+   ],
+   "lastTeam": "MI",
+   "overseas": true
+  },
+  {
+   "id": "P108",
+   "name": "Tristan Stubbs",
+   "country": "RSA",
+   "role": "BAT",
+   "battingSlot": "finisher",
+   "bowlingType": null,
+   "tier": "gold",
+   "rating": 86,
+   "basePrice": 100,
+   "previousTeams": [
+    "MI",
+    "DC"
+   ],
+   "lastTeam": "DC",
+   "overseas": true
+  },
+  {
+   "id": "P109",
+   "name": "Nandre Burger",
+   "country": "RSA",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 83,
+   "basePrice": 100,
+   "previousTeams": [
+    "RR"
+   ],
+   "lastTeam": "RR",
+   "overseas": true
+  },
+  {
+   "id": "P110",
+   "name": "Quinton de Kock",
+   "country": "RSA",
+   "role": "WK",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 89,
+   "basePrice": 200,
+   "previousTeams": [
+    "SRH",
+    "DC",
+    "RCB",
+    "LSG",
+    "MI"
+   ],
+   "lastTeam": "MI",
+   "overseas": true
+  },
+  {
+   "id": "P111",
+   "name": "Rilee Rossouw",
+   "country": "RSA",
+   "role": "BAT",
+   "battingSlot": "top",
+   "bowlingType": null,
+   "tier": "platinum",
+   "rating": 83,
+   "basePrice": 150,
+   "previousTeams": [
+    "RCB",
+    "DC",
+    "PBKS"
+   ],
+   "lastTeam": "PBKS",
+   "overseas": true
+  },
+  {
+   "id": "P112",
+   "name": "Faf du Plessis",
+   "country": "RSA",
+   "role": "BAT",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 87,
+   "basePrice": 200,
+   "previousTeams": [
+    "CSK",
+    "RPS",
+    "RCB"
+   ],
+   "lastTeam": "RCB",
+   "overseas": true
+  },
+  {
+   "id": "P113",
+   "name": "Donovan Ferreira",
+   "country": "RSA",
+   "role": "WK",
+   "battingSlot": "finisher",
+   "bowlingType": null,
+   "tier": "silver",
+   "rating": 80,
+   "basePrice": 50,
+   "previousTeams": [
+    "RR"
+   ],
+   "lastTeam": "RR",
+   "overseas": true
+  },
+  {
+   "id": "P114",
+   "name": "Ryan Rickelton",
+   "country": "RSA",
+   "role": "WK",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "gold",
+   "rating": 81,
+   "basePrice": 100,
+   "previousTeams": [
+    "MI"
+   ],
+   "lastTeam": "MI",
+   "overseas": true
+  },
+  {
+   "id": "P115",
+   "name": "Lungi Ngidi",
+   "country": "RSA",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "platinum",
+   "rating": 83,
+   "basePrice": 150,
+   "previousTeams": [
+    "CSK",
+    "DC",
+    "RCB"
+   ],
+   "lastTeam": "RCB",
+   "overseas": true
+  },
+  {
+   "id": "P116",
+   "name": "Andre Russell",
+   "country": "WIN",
+   "role": "AR",
+   "battingSlot": "finisher",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 93,
+   "basePrice": 200,
+   "previousTeams": [
+    "DC",
+    "KKR"
+   ],
+   "lastTeam": "KKR",
+   "overseas": true
+  },
+  {
+   "id": "P117",
+   "name": "Sunil Narine",
+   "country": "WIN",
+   "role": "AR",
+   "battingSlot": "opener",
+   "bowlingType": "spin",
+   "tier": "diamond",
+   "rating": 92,
+   "basePrice": 200,
+   "previousTeams": [
+    "KKR"
+   ],
+   "lastTeam": "KKR",
+   "overseas": true
+  },
+  {
+   "id": "P118",
+   "name": "Nicholas Pooran",
+   "country": "WIN",
+   "role": "WK",
+   "battingSlot": "finisher",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 92,
+   "basePrice": 200,
+   "previousTeams": [
+    "MI",
+    "PBKS",
+    "SRH",
+    "LSG"
+   ],
+   "lastTeam": "LSG",
+   "overseas": true
+  },
+  {
+   "id": "P119",
+   "name": "Rovman Powell",
+   "country": "WIN",
+   "role": "BAT",
+   "battingSlot": "finisher",
+   "bowlingType": null,
+   "tier": "platinum",
+   "rating": 85,
+   "basePrice": 150,
+   "previousTeams": [
+    "DC",
+    "RR"
+   ],
+   "lastTeam": "RR",
+   "overseas": true
+  },
+  {
+   "id": "P120",
+   "name": "Shimron Hetmyer",
+   "country": "WIN",
+   "role": "BAT",
+   "battingSlot": "finisher",
+   "bowlingType": null,
+   "tier": "platinum",
+   "rating": 84,
+   "basePrice": 150,
+   "previousTeams": [
+    "RCB",
+    "DC",
+    "RR"
+   ],
+   "lastTeam": "RR",
+   "overseas": true
+  },
+  {
+   "id": "P121",
+   "name": "Romario Shepherd",
+   "country": "WIN",
+   "role": "AR",
+   "battingSlot": "finisher",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 83,
+   "basePrice": 100,
+   "previousTeams": [
+    "SRH",
+    "LSG",
+    "MI",
+    "RCB"
+   ],
+   "lastTeam": "RCB",
+   "overseas": true
+  },
+  {
+   "id": "P122",
+   "name": "Alzarri Joseph",
+   "country": "WIN",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "platinum",
+   "rating": 85,
+   "basePrice": 150,
+   "previousTeams": [
+    "MI",
+    "GT",
+    "RCB"
+   ],
+   "lastTeam": "RCB",
+   "overseas": true
+  },
+  {
+   "id": "P123",
+   "name": "Kyle Mayers",
+   "country": "WIN",
+   "role": "AR",
+   "battingSlot": "opener",
+   "bowlingType": "pace",
+   "tier": "platinum",
+   "rating": 84,
+   "basePrice": 150,
+   "previousTeams": [
+    "LSG"
+   ],
+   "lastTeam": "LSG",
+   "overseas": true
+  },
+  {
+   "id": "P124",
+   "name": "Akeal Hosein",
+   "country": "WIN",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "spin",
+   "tier": "platinum",
+   "rating": 84,
+   "basePrice": 150,
+   "previousTeams": [
+    "SRH",
+    "CSK"
+   ],
+   "lastTeam": "CSK",
+   "overseas": true
+  },
+  {
+   "id": "P125",
+   "name": "Sherfane Rutherford",
+   "country": "WIN",
+   "role": "BAT",
+   "battingSlot": "finisher",
+   "bowlingType": null,
+   "tier": "gold",
+   "rating": 82,
+   "basePrice": 100,
+   "previousTeams": [
+    "DC",
+    "RCB",
+    "KKR",
+    "MI"
+   ],
+   "lastTeam": "MI",
+   "overseas": true
+  },
+  {
+   "id": "P126",
+   "name": "Jason Holder",
+   "country": "WIN",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 83,
+   "basePrice": 200,
+   "previousTeams": [
+    "CSK",
+    "SRH",
+    "KKR",
+    "LSG",
+    "RR"
+   ],
+   "lastTeam": "RR",
+   "overseas": true
+  },
+  {
+   "id": "P127",
+   "name": "Shai Hope",
+   "country": "WIN",
+   "role": "WK",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "gold",
+   "rating": 81,
+   "basePrice": 100,
+   "previousTeams": [
+    "DC"
+   ],
+   "lastTeam": "DC",
+   "overseas": true
+  },
+  {
+   "id": "P128",
+   "name": "Obed McCoy",
+   "country": "WIN",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 82,
+   "basePrice": 100,
+   "previousTeams": [
+    "RR"
+   ],
+   "lastTeam": "RR",
+   "overseas": true
+  },
+  {
+   "id": "P129",
+   "name": "Matthew Forde",
+   "country": "WIN",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "pace",
+   "tier": "silver",
+   "rating": 79,
+   "basePrice": 50,
+   "previousTeams": [],
+   "lastTeam": null,
+   "overseas": true
+  },
+  {
+   "id": "P130",
+   "name": "Shamar Joseph",
+   "country": "WIN",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "silver",
+   "rating": 80,
+   "basePrice": 50,
+   "previousTeams": [
+    "LSG"
+   ],
+   "lastTeam": "LSG",
+   "overseas": true
+  },
+  {
+   "id": "P131",
+   "name": "Kane Williamson",
+   "country": "NZL",
+   "role": "BAT",
+   "battingSlot": "top",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 85,
+   "basePrice": 200,
+   "previousTeams": [
+    "SRH",
+    "GT"
+   ],
+   "lastTeam": "GT",
+   "overseas": true
+  },
+  {
+   "id": "P132",
+   "name": "Trent Boult",
+   "country": "NZL",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 90,
+   "basePrice": 200,
+   "previousTeams": [
+    "SRH",
+    "KKR",
+    "DC",
+    "MI",
+    "RR"
+   ],
+   "lastTeam": "RR",
+   "overseas": true
+  },
+  {
+   "id": "P133",
+   "name": "Rachin Ravindra",
+   "country": "NZL",
+   "role": "AR",
+   "battingSlot": "opener",
+   "bowlingType": "spin",
+   "tier": "platinum",
+   "rating": 86,
+   "basePrice": 150,
+   "previousTeams": [
+    "CSK",
+    "KKR"
+   ],
+   "lastTeam": "KKR",
+   "overseas": true
+  },
+  {
+   "id": "P134",
+   "name": "Daryl Mitchell",
+   "country": "NZL",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 85,
+   "basePrice": 200,
+   "previousTeams": [
+    "RR",
+    "CSK"
+   ],
+   "lastTeam": "CSK",
+   "overseas": true
+  },
+  {
+   "id": "P135",
+   "name": "Mitchell Santner",
+   "country": "NZL",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "spin",
+   "tier": "platinum",
+   "rating": 84,
+   "basePrice": 150,
+   "previousTeams": [
+    "CSK",
+    "MI"
+   ],
+   "lastTeam": "MI",
+   "overseas": true
+  },
+  {
+   "id": "P136",
+   "name": "Lockie Ferguson",
+   "country": "NZL",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 85,
+   "basePrice": 200,
+   "previousTeams": [
+    "RPS",
+    "KKR",
+    "GT",
+    "RCB"
+   ],
+   "lastTeam": "RCB",
+   "overseas": true
+  },
+  {
+   "id": "P137",
+   "name": "Glenn Phillips",
+   "country": "NZL",
+   "role": "BAT",
+   "battingSlot": "top",
+   "bowlingType": null,
+   "tier": "platinum",
+   "rating": 86,
+   "basePrice": 150,
+   "previousTeams": [
+    "RR",
+    "SRH",
+    "GT"
+   ],
+   "lastTeam": "GT",
+   "overseas": true
+  },
+  {
+   "id": "P138",
+   "name": "Devon Conway",
+   "country": "NZL",
+   "role": "BAT",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 88,
+   "basePrice": 200,
+   "previousTeams": [
+    "CSK"
+   ],
+   "lastTeam": "CSK",
+   "overseas": true
+  },
+  {
+   "id": "P139",
+   "name": "Matt Henry",
+   "country": "NZL",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 82,
+   "basePrice": 100,
+   "previousTeams": [
+    "PBKS",
+    "LSG",
+    "CSK"
+   ],
+   "lastTeam": "CSK",
+   "overseas": true
+  },
+  {
+   "id": "P140",
+   "name": "Tim Southee",
+   "country": "NZL",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "platinum",
+   "rating": 83,
+   "basePrice": 150,
+   "previousTeams": [
+    "CSK",
+    "RR",
+    "MI",
+    "RCB",
+    "KKR"
+   ],
+   "lastTeam": "KKR",
+   "overseas": true
+  },
+  {
+   "id": "P141",
+   "name": "Rashid Khan",
+   "country": "AFG",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "spin",
+   "tier": "diamond",
+   "rating": 96,
+   "basePrice": 200,
+   "previousTeams": [
+    "SRH",
+    "GT"
+   ],
+   "lastTeam": "GT",
+   "overseas": true
+  },
+  {
+   "id": "P142",
+   "name": "Rahmanullah Gurbaz",
+   "country": "AFG",
+   "role": "WK",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "platinum",
+   "rating": 86,
+   "basePrice": 150,
+   "previousTeams": [
+    "GT",
+    "KKR"
+   ],
+   "lastTeam": "KKR",
+   "overseas": true
+  },
+  {
+   "id": "P143",
+   "name": "Noor Ahmad",
+   "country": "AFG",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "spin",
+   "tier": "gold",
+   "rating": 85,
+   "basePrice": 100,
+   "previousTeams": [
+    "GT",
+    "CSK"
+   ],
+   "lastTeam": "CSK",
+   "overseas": true
+  },
+  {
+   "id": "P144",
+   "name": "Naveen-ul-Haq",
+   "country": "AFG",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 84,
+   "basePrice": 100,
+   "previousTeams": [
+    "LSG"
+   ],
+   "lastTeam": "LSG",
+   "overseas": true
+  },
+  {
+   "id": "P145",
+   "name": "Fazalhaq Farooqi",
+   "country": "AFG",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 85,
+   "basePrice": 100,
+   "previousTeams": [
+    "SRH"
+   ],
+   "lastTeam": "SRH",
+   "overseas": true
+  },
+  {
+   "id": "P146",
+   "name": "Azmatullah Omarzai",
+   "country": "AFG",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 83,
+   "basePrice": 100,
+   "previousTeams": [
+    "GT"
+   ],
+   "lastTeam": "GT",
+   "overseas": true
+  },
+  {
+   "id": "P147",
+   "name": "Mohammad Nabi",
+   "country": "AFG",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "spin",
+   "tier": "platinum",
+   "rating": 84,
+   "basePrice": 150,
+   "previousTeams": [
+    "SRH",
+    "KKR",
+    "MI"
+   ],
+   "lastTeam": "MI",
+   "overseas": true
+  },
+  {
+   "id": "P148",
+   "name": "Mujeeb Ur Rahman",
+   "country": "AFG",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "spin",
+   "tier": "platinum",
+   "rating": 83,
+   "basePrice": 150,
+   "previousTeams": [
+    "PBKS",
+    "SRH"
+   ],
+   "lastTeam": "SRH",
+   "overseas": true
+  },
+  {
+   "id": "P149",
+   "name": "Gulbadin Naib",
+   "country": "AFG",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "pace",
+   "tier": "silver",
+   "rating": 80,
+   "basePrice": 50,
+   "previousTeams": [
+    "DC"
+   ],
+   "lastTeam": "DC",
+   "overseas": true
+  },
+  {
+   "id": "P150",
+   "name": "Najibullah Zadran",
+   "country": "AFG",
+   "role": "BAT",
+   "battingSlot": "finisher",
+   "bowlingType": null,
+   "tier": "gold",
+   "rating": 79,
+   "basePrice": 100,
+   "previousTeams": [],
+   "lastTeam": null,
+   "overseas": true
+  },
+  {
+   "id": "P151",
+   "name": "Matheesha Pathirana",
+   "country": "SRI",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 88,
+   "basePrice": 100,
+   "previousTeams": [
+    "CSK"
+   ],
+   "lastTeam": "CSK",
+   "overseas": true
+  },
+  {
+   "id": "P152",
+   "name": "Wanindu Hasaranga",
+   "country": "SRI",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "spin",
+   "tier": "diamond",
+   "rating": 87,
+   "basePrice": 200,
+   "previousTeams": [
+    "RCB",
+    "SRH"
+   ],
+   "lastTeam": "SRH",
+   "overseas": true
+  },
+  {
+   "id": "P153",
+   "name": "Maheesh Theekshana",
+   "country": "SRI",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "spin",
+   "tier": "platinum",
+   "rating": 85,
+   "basePrice": 150,
+   "previousTeams": [
+    "CSK",
+    "RR"
+   ],
+   "lastTeam": "RR",
+   "overseas": true
+  },
+  {
+   "id": "P154",
+   "name": "Dushmantha Chameera",
+   "country": "SRI",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 81,
+   "basePrice": 100,
+   "previousTeams": [
+    "RR",
+    "RCB",
+    "LSG",
+    "KKR"
+   ],
+   "lastTeam": "KKR",
+   "overseas": true
+  },
+  {
+   "id": "P155",
+   "name": "Dilshan Madushanka",
+   "country": "SRI",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 82,
+   "basePrice": 100,
+   "previousTeams": [
+    "MI"
+   ],
+   "lastTeam": "MI",
+   "overseas": true
+  },
+  {
+   "id": "P156",
+   "name": "Nuwan Thushara",
+   "country": "SRI",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "silver",
+   "rating": 83,
+   "basePrice": 50,
+   "previousTeams": [
+    "MI"
+   ],
+   "lastTeam": "MI",
+   "overseas": true
+  },
+  {
+   "id": "P157",
+   "name": "Charith Asalanka",
+   "country": "SRI",
+   "role": "BAT",
+   "battingSlot": "top",
+   "bowlingType": null,
+   "tier": "gold",
+   "rating": 82,
+   "basePrice": 100,
+   "previousTeams": [],
+   "lastTeam": null,
+   "overseas": true
+  },
+  {
+   "id": "P158",
+   "name": "Bhanuka Rajapaksa",
+   "country": "SRI",
+   "role": "BAT",
+   "battingSlot": "top",
+   "bowlingType": null,
+   "tier": "gold",
+   "rating": 80,
+   "basePrice": 100,
+   "previousTeams": [],
+   "lastTeam": null,
+   "overseas": true
+  },
+  {
+   "id": "P159",
+   "name": "Kusal Mendis",
+   "country": "SRI",
+   "role": "WK",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "platinum",
+   "rating": 83,
+   "basePrice": 150,
+   "previousTeams": [
+    "GT"
+   ],
+   "lastTeam": "GT",
+   "overseas": true
+  },
+  {
+   "id": "P160",
+   "name": "Dasun Shanaka",
+   "country": "SRI",
+   "role": "AR",
+   "battingSlot": "finisher",
+   "bowlingType": "pace",
+   "tier": "platinum",
+   "rating": 80,
+   "basePrice": 150,
+   "previousTeams": [
+    "GT"
+   ],
+   "lastTeam": "GT",
+   "overseas": true
+  },
+  {
+   "id": "P161",
+   "name": "Mustafizur Rahman",
+   "country": "BAN",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "diamond",
+   "rating": 85,
+   "basePrice": 200,
+   "previousTeams": [
+    "SRH",
+    "MI",
+    "RR",
+    "DC",
+    "CSK",
+    "KKR"
+   ],
+   "lastTeam": "KKR",
+   "overseas": true
+  },
+  {
+   "id": "P162",
+   "name": "Taskin Ahmed",
+   "country": "BAN",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 82,
+   "basePrice": 100,
+   "previousTeams": [],
+   "lastTeam": null,
+   "overseas": true
+  },
+  {
+   "id": "P163",
+   "name": "Shoriful Islam",
+   "country": "BAN",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "silver",
+   "rating": 79,
+   "basePrice": 50,
+   "previousTeams": [],
+   "lastTeam": null,
+   "overseas": true
+  },
+  {
+   "id": "P164",
+   "name": "Towhid Hridoy",
+   "country": "BAN",
+   "role": "BAT",
+   "battingSlot": "top",
+   "bowlingType": null,
+   "tier": "silver",
+   "rating": 78,
+   "basePrice": 50,
+   "previousTeams": [],
+   "lastTeam": null,
+   "overseas": true
+  },
+  {
+   "id": "P165",
+   "name": "Mahedi Hasan",
+   "country": "BAN",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "spin",
+   "tier": "silver",
+   "rating": 79,
+   "basePrice": 50,
+   "previousTeams": [],
+   "lastTeam": null,
+   "overseas": true
+  },
+  {
+   "id": "P166",
+   "name": "Sikandar Raza",
+   "country": "ZIM",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "spin",
+   "tier": "gold",
+   "rating": 84,
+   "basePrice": 100,
+   "previousTeams": [
+    "PBKS"
+   ],
+   "lastTeam": "PBKS",
+   "overseas": true
+  },
+  {
+   "id": "P167",
+   "name": "Richard Ngarava",
+   "country": "ZIM",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "silver",
+   "rating": 78,
+   "basePrice": 50,
+   "previousTeams": [],
+   "lastTeam": null,
+   "overseas": true
+  },
+  {
+   "id": "P168",
+   "name": "Blessing Muzarabani",
+   "country": "ZIM",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "silver",
+   "rating": 80,
+   "basePrice": 50,
+   "previousTeams": [
+    "LSG",
+    "KKR"
+   ],
+   "lastTeam": "KKR",
+   "overseas": true
+  },
+  {
+   "id": "P169",
+   "name": "Paul Stirling",
+   "country": "IRE",
+   "role": "BAT",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "gold",
+   "rating": 81,
+   "basePrice": 100,
+   "previousTeams": [],
+   "lastTeam": null,
+   "overseas": true
+  },
+  {
+   "id": "P170",
+   "name": "Josh Little",
+   "country": "IRE",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "gold",
+   "rating": 82,
+   "basePrice": 100,
+   "previousTeams": [
+    "GT"
+   ],
+   "lastTeam": "GT",
+   "overseas": true
+  },
+  {
+   "id": "P171",
+   "name": "Harry Tector",
+   "country": "IRE",
+   "role": "BAT",
+   "battingSlot": "top",
+   "bowlingType": null,
+   "tier": "silver",
+   "rating": 80,
+   "basePrice": 50,
+   "previousTeams": [],
+   "lastTeam": null,
+   "overseas": true
+  },
+  {
+   "id": "P172",
+   "name": "MS Dhoni",
+   "country": "IND",
+   "role": "WK",
+   "battingSlot": "finisher",
+   "bowlingType": null,
+   "tier": "diamond",
+   "rating": 85,
+   "basePrice": 200,
+   "previousTeams": [
+    "RPS",
+    "CSK"
+   ],
+   "lastTeam": "CSK",
+   "overseas": false
+  },
+  {
+   "id": "P173",
+   "name": "Prithvi Shaw",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "opener",
+   "bowlingType": null,
+   "tier": "gold",
+   "rating": 81,
+   "basePrice": 100,
+   "previousTeams": [
+    "DC"
+   ],
+   "lastTeam": "DC",
+   "overseas": false
+  },
+  {
+   "id": "P174",
+   "name": "Abhinav Manohar",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "finisher",
+   "bowlingType": null,
+   "tier": "silver",
+   "rating": 79,
+   "basePrice": 50,
+   "previousTeams": [
+    "GT"
+   ],
+   "lastTeam": "GT",
+   "overseas": false
+  },
+  {
+   "id": "P175",
+   "name": "Anshul Kamboj",
+   "country": "IND",
+   "role": "AR",
+   "battingSlot": "middle",
+   "bowlingType": "pace",
+   "tier": "bronze",
+   "rating": 76,
+   "basePrice": 20,
+   "previousTeams": [
+    "MI",
+    "CSK"
+   ],
+   "lastTeam": "CSK",
+   "overseas": false
+  },
+  {
+   "id": "P176",
+   "name": "Rasikh Salam",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "pace",
+   "tier": "bronze",
+   "rating": 78,
+   "basePrice": 20,
+   "previousTeams": [
+    "MI",
+    "KKR",
+    "DC"
+   ],
+   "lastTeam": "DC",
+   "overseas": false
+  },
+  {
+   "id": "P177",
+   "name": "Shashank Singh",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "finisher",
+   "bowlingType": null,
+   "tier": "silver",
+   "rating": 83,
+   "basePrice": 50,
+   "previousTeams": [
+    "RR",
+    "SRH",
+    "PBKS"
+   ],
+   "lastTeam": "PBKS",
+   "overseas": false
+  },
+  {
+   "id": "P178",
+   "name": "Ashutosh Sharma",
+   "country": "IND",
+   "role": "BAT",
+   "battingSlot": "finisher",
+   "bowlingType": null,
+   "tier": "silver",
+   "rating": 82,
+   "basePrice": 50,
+   "previousTeams": [
+    "PBKS"
+   ],
+   "lastTeam": "PBKS",
+   "overseas": false
+  },
+  {
+   "id": "P180",
+   "name": "Mayank Markande",
+   "country": "IND",
+   "role": "BOWL",
+   "battingSlot": "tail",
+   "bowlingType": "spin",
+   "tier": "silver",
+   "rating": 79,
+   "basePrice": 50,
+   "previousTeams": [
+    "RR",
+    "SRH",
+    "MI"
+   ],
+   "lastTeam": "MI",
+   "overseas": false
+  }
+ ]
+}

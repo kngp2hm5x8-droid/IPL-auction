@@ -1,0 +1,57 @@
+{
+  "name": "ipl-auction-simulator",
+  "private": true,
+  "version": "3.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:emu": "VITE_USE_EMULATORS=true vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "oxlint src shared functions/src tests scripts",
+    "typecheck": "tsc -b && tsc -p functions/tsconfig.json --noEmit",
+    "validate:players": "tsx scripts/validate-players.ts",
+    "migrate:players": "tsx scripts/migrate-players.ts",
+    "test": "vitest run tests/unit",
+    "test:watch": "vitest tests/unit",
+    "test:integration": "firebase emulators:exec --only database --project demo-ipl-auction \"vitest run tests/integration\"",
+    "test:e2e": "npm run functions:build && firebase emulators:exec --only auth,database,functions --project demo-ipl-auction \"playwright test\"",
+    "functions:build": "npm --prefix functions run build",
+    "emulators": "npm run functions:build && firebase emulators:start --only auth,database,functions --project demo-ipl-auction",
+    "deploy": "npm run build && npm run functions:build && firebase deploy",
+    "test:all": "npm run lint && npm run typecheck && npm run validate:players && npm test && npm run test:integration && npm run test:e2e"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "firebase": "^12.0.0",
+    "lucide-react": "^0.500.0",
+    "motion": "^12.0.0",
+    "radix-ui": "^1.4.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.6.0",
+    "tailwind-merge": "^3.3.0",
+    "zustand": "^5.0.5"
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "^5.0.0",
+    "@playwright/test": "^1.54.0",
+    "@tailwindcss/vite": "^4.1.0",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "firebase-admin": "^13.4.0",
+    "firebase-tools": "^14.11.0",
+    "oxlint": "^1.88.0",
+    "tailwindcss": "^4.1.0",
+    "tsx": "^4.20.0",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.4",
+    "vitest": "^4.0.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "fsevents@2.3.3": true
+  }
+}

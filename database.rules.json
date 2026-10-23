@@ -1,0 +1,54 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+
+    "rooms": {
+      ".indexOn": ["meta/status"],
+      "$code": {
+        ".read": "auth != null",
+        ".write": false
+      }
+    },
+
+    "roomLogs": {
+      "$code": {
+        ".read": "auth != null",
+        ".write": false
+      }
+    },
+
+    "roomMatches": {
+      "$code": {
+        ".read": "auth != null",
+        ".write": false
+      }
+    },
+
+    "presence": {
+      "$code": {
+        ".read": "auth != null",
+        "$uid": {
+          ".write": "auth != null && auth.uid === $uid && root.child('rooms').child($code).child('members').child($uid).exists()",
+          ".validate": "!newData.exists() || newData.hasChildren(['online', 'lastChanged'])",
+          "online": { ".validate": "newData.isBoolean()" },
+          "lastChanged": { ".validate": "newData.isNumber() && newData.val() <= now + 60000" },
+          "$other": { ".validate": false }
+        }
+      }
+    },
+
+    "users": {
+      "$uid": {
+        ".read": "auth != null && auth.uid === $uid",
+        "profile": {
+          ".write": "auth != null && auth.uid === $uid",
+          ".validate": "newData.hasChildren(['name']) && newData.child('name').isString() && newData.child('name').val().length >= 2 && newData.child('name').val().length <= 24",
+          "name": { ".validate": true },
+          "$other": { ".validate": false }
+        },
+        "rooms": { ".write": false }
+      }
+    }
+  }
+}
