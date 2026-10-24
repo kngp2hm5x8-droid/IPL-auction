@@ -20,7 +20,6 @@
     "composite": false
   },
   "include": [
-    "api",
     "scripts",
     "server",
     "shared",

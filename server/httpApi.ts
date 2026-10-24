@@ -39,8 +39,15 @@ function adminApp(): App {
     return app;
   }
   const raw = process.env.FIREBASE_SERVICE_ACCOUNT;
-  if (!raw || !databaseURL) throw new Error('Server is missing FIREBASE_SERVICE_ACCOUNT or FIREBASE_DATABASE_URL.');
-  const sa = JSON.parse(raw) as { project_id: string; client_email: string; private_key: string };
+  if (!raw) throw new Error('FIREBASE_SERVICE_ACCOUNT is not set.');
+  if (!databaseURL) throw new Error('FIREBASE_DATABASE_URL is not set.');
+  let sa: { project_id?: string; client_email?: string; private_key?: string };
+  try {
+    sa = JSON.parse(raw);
+  } catch {
+    throw new Error('FIREBASE_SERVICE_ACCOUNT is not valid JSON — paste the whole key file, from { to }.');
+  }
+  if (!sa.project_id || !sa.client_email || !sa.private_key) throw new Error('FIREBASE_SERVICE_ACCOUNT is missing project_id, client_email or private_key.');
   app = initializeApp({
     credential: cert({ projectId: sa.project_id, clientEmail: sa.client_email, privateKey: sa.private_key.replace(/\\n/g, '\n') }),
     databaseURL,
@@ -56,15 +63,22 @@ export async function handleHttp(method: string, authorization: string | undefin
   if (method !== 'POST') return { status: 405, body: { error: { status: 'invalid-argument', code: 'method', message: 'Use POST.' } } };
   const token = authorization?.startsWith('Bearer ') ? authorization.slice(7) : null;
   if (!token) return { status: 401, body: { error: { status: 'unauthenticated', code: 'no-token', message: 'Sign in to play.' } } };
+  let firebase: App;
+  try {
+    firebase = adminApp();
+  } catch (e) {
+    console.error('server configuration', e);
+    return { status: 500, body: { error: { status: 'internal', code: 'server-config', message: `Game server setup incomplete: ${(e as Error).message}` } } };
+  }
   let uid: string;
   try {
-    uid = (await getAuth(adminApp()).verifyIdToken(token)).uid;
+    uid = (await getAuth(firebase).verifyIdToken(token)).uid;
   } catch {
     return { status: 401, body: { error: { status: 'unauthenticated', code: 'bad-token', message: 'Your session expired. Please reload.' } } };
   }
   const data = (body as { data?: unknown } | null)?.data;
   try {
-    return { status: 200, body: { result: await handle(getDatabase(adminApp()), uid, data) } };
+    return { status: 200, body: { result: await handle(getDatabase(firebase), uid, data) } };
   } catch (e) {
     if (e instanceof ApiError) return { status: HTTP_STATUS[e.status] ?? 400, body: { error: { status: e.status, code: e.code, message: e.message } } };
     console.error('api failure', e);
