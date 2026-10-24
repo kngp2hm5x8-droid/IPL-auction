@@ -14,7 +14,8 @@
     "roomLogs": {
       "$code": {
         ".read": "auth != null",
-        ".write": false
+        ".write": false,
+        "commentary": { ".indexOn": ["at"] }
       }
     },
 

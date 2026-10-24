@@ -7,6 +7,7 @@ import { computeStandings, nextPlayable, STAGE_LABEL } from '@shared/engine/tour
 import { Badge, Button, Card, CardHeader, ConfirmDialog, EmptyState, SectionLabel, Tabs, TabsContent, TabsList, TabsTrigger, cn } from '@/components/ui';
 import { TeamCrest, franchiseColor } from '@/components/game';
 import { run } from '@/services/api';
+import { toast } from '@/stores/toast';
 import { useRoomCtx } from '@/features/rooms/RoomContext';
 
 export default function TournamentPage() {
@@ -72,7 +73,15 @@ function Season() {
   }
   async function simAll(stage: 'league' | 'all') {
     setBusy(stage);
-    await run({ action: 'simulateAll', code, stage }, stage === 'league' ? 'League stage simulated' : 'Season simulated');
+    // The server works in short batches (free hosting has time limits); keep going until done.
+    for (let i = 0; i < 50; i++) {
+      const r = await run({ action: 'simulateAll', code, stage });
+      if (!r) break;
+      if (!r.data?.more) {
+        toast.success(stage === 'league' ? 'League stage simulated' : 'Season simulated');
+        break;
+      }
+    }
     setBusy(null);
   }
 

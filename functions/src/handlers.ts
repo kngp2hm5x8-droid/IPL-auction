@@ -153,16 +153,21 @@ export async function simulateFixture(db: Database, uid: string, code: string, f
   return { ok: true, code, data: { fixtureId, winnerId: summary.winnerId, margin: summary.margin } };
 }
 
+/** Seconds of work per request, so free serverless hosts with short time limits never time out. */
+const SIMULATE_ALL_BUDGET_MS = 8000;
+
+/** Simulates fixtures in order until the stage ends or the time budget runs out (`more` tells the client to call again). */
 async function simulateAll(db: Database, uid: string, code: string, stage: 'league' | 'all'): Promise<ApiResult> {
+  const started = Date.now();
   let played = 0;
-  for (let i = 0; i < 120; i++) {
+  for (;;) {
     const room = await loadRoom(db, code);
     const f = nextPlayable(room.tournament);
-    if (!f || (stage === 'league' && f.stage !== 'league')) break;
+    if (!f || (stage === 'league' && f.stage !== 'league')) return { ok: true, code, data: { played, more: false } };
+    if (Date.now() - started > SIMULATE_ALL_BUDGET_MS) return { ok: true, code, data: { played, more: true } };
     await simulateFixture(db, uid, code, f.id);
     played++;
   }
-  return { ok: true, code, data: { played } };
 }
 
 async function runInRoom(db: Database, code: string, fn: (room: Room, ctx: (uid: string) => { uid: string; now: number; rng: () => number }) => Events): Promise<Events> {

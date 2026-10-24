@@ -56,6 +56,8 @@ by adding `"host": "0.0.0.0"` to each emulator in `firebase.json`.
 | `npm test` | Unit tests (engine: bids, purses, RTM, cards, squads, match engine, NRR, playoffs) |
 | `npm run test:integration` | Starts the Database emulator and runs server and security-rules tests |
 | `npm run test:e2e` | Builds functions, starts all emulators, runs Playwright (desktop + Pixel 7) |
+| `npm run test:e2e:free` | Same journey through the plain-HTTP API used by the free Vercel setup |
+| `npm run emulators:free` / `api:dev` / `dev:free` | Local stack for the free setup (no Functions emulator) |
 | `npm run test:all` | Everything above |
 | `npm run validate:players` | Validates `shared/data/players.json` |
 | `npm run migrate:players -- <v2.html>` | Re-generates the player DB from the v2 file (recover it with `git show 888515b:IPL_auctionfull2.0.html > v2.html`) |
@@ -77,7 +79,72 @@ project `ipl-auction-fa6d2` is already present.
 Never put service-account keys in the frontend or in `.env*`. The functions use the default
 service account provided by Google Cloud.
 
-## Deploying to Firebase
+## Free deployment (no Blaze plan): Firebase Spark + Vercel Hobby
+
+Firebase Cloud Functions need the paid Blaze plan. Everything else this app uses (Realtime
+Database, Anonymous Auth, security rules) is free on the **Spark** plan, so the trusted
+game server runs as a free **Vercel** function instead (`api/index.ts`). It is the same server
+code as the Cloud Function, with the same transactions and token checks; browsers still cannot
+write game data directly. Neither service asks for a card.
+
+**1. Firebase console** (project on the free Spark plan):
+* **Build → Authentication → Sign-in method → Anonymous → Enable**.
+* **Build → Realtime Database** must exist (it does for `ipl-auction-fa6d2`).
+* **Project settings (gear) → Service accounts → Generate new private key.** A `.json` file
+  downloads. It is a password for your database: never commit it or share it.
+
+**2. Deploy the security rules** (free) from your Mac:
+
+```bash
+cd ~/IPL-auction && npx firebase deploy --only database
+```
+
+**3. Vercel:** sign up at vercel.com with **Continue with GitHub** (Hobby plan), then
+**Add New → Project → Import** `IPL-auction`. Vercel detects Vite. Before clicking Deploy, open
+**Environment Variables** and add:
+
+| Name | Value |
+|---|---|
+| `VITE_FIREBASE_API_KEY` | from `.env.local` |
+| `VITE_FIREBASE_AUTH_DOMAIN` | from `.env.local` |
+| `VITE_FIREBASE_DATABASE_URL` | from `.env.local` |
+| `VITE_FIREBASE_PROJECT_ID` | from `.env.local` |
+| `VITE_FIREBASE_APP_ID` | from `.env.local` |
+| `VITE_API_URL` | `/api` |
+| `FIREBASE_DATABASE_URL` | same value as `VITE_FIREBASE_DATABASE_URL` |
+| `FIREBASE_SERVICE_ACCOUNT` | the **entire contents** of the downloaded `.json` key |
+
+Click **Deploy**. Your game is live at `https://<project-name>.vercel.app`.
+
+**4. Back in Firebase:** **Authentication → Settings → Authorized domains → Add domain** →
+your `…vercel.app` domain.
+
+**5. Updates:** every `git push` to `main` redeploys automatically. If you change
+`database.rules.json`, run step 2 again.
+
+**Free-tier limits** (fine for friends): Spark allows 100 simultaneous database connections,
+1 GB stored and 10 GB downloaded per month (roughly 25 ten-player auctions). Vercel Hobby is for
+non-commercial use. There is no once-a-minute sweeper on this path: a lot whose timer ran out
+while everyone was away is finalised as soon as anyone reopens the room.
+
+**Test the free setup locally:** emulators without Functions, the local API, and the app, each
+in its own terminal:
+
+```bash
+npm run emulators:free
+```
+
+```bash
+npm run api:dev
+```
+
+```bash
+npm run dev:free
+```
+
+Automated: `npm run test:e2e:free`.
+
+## Deploying to Firebase (Blaze plan, Cloud Functions)
 
 The existing project is `ipl-auction-fa6d2` (see `.firebaserc`).
 

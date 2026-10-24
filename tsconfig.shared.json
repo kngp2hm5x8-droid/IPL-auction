@@ -20,9 +20,12 @@
     "composite": false
   },
   "include": [
-    "shared",
+    "api",
+    "functions/src",
     "scripts",
-    "tests/unit",
-    "tests/integration"
+    "server",
+    "shared",
+    "tests/integration",
+    "tests/unit"
   ]
 }

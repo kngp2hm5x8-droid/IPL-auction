@@ -77,7 +77,7 @@ found eight bugs (emulator namespace, stuck overlay, lost confirm dialog, replay
 
 ## Not done / limitations (honest list)
 
-1. **Not deployed.** Deploying needs your Firebase login and the **Blaze** plan for Cloud
+1. **Not deployed.** A free path now exists (Firebase Spark + Vercel Hobby, see README → *Free deployment*); its E2E suite passes against the emulators (`npm run test:e2e:free`). Deploying needs your Firebase login and the **Blaze** plan for Cloud
    Functions and Scheduler. The exact steps are in README → *Deploying to Firebase*. Deploying
    the new rules will (intentionally) stop the v2 page from writing to the same database.
 2. **Player trades** (a v2 toggle that had no implementation) were not built.
