@@ -21,11 +21,11 @@
   },
   "include": [
     "api",
-    "functions/src",
     "scripts",
     "server",
     "shared",
     "tests/integration",
-    "tests/unit"
+    "tests/unit",
+    "functions/src/handlers.ts"
   ]
 }
